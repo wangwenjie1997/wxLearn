@@ -2,6 +2,8 @@
   "pages":[
     "pages/first/first",
     "pages/second/second",
+    "pages/third/third",
+    "pages/four/four",
     "pages/index/index",
     "pages/logs/logs"
   ],

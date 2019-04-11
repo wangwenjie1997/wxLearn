@@ -1,2 +1,3 @@
-<input value='{{text}}'></input>
-<button bindtap='gotoSecond'>xx</button>
+<text>{{text}}</text>
+<button bindtap='navigateToSecond'>navigateToSecond</button>
+<button bindtap='reLaunchFour'>reLaunchFour</button>

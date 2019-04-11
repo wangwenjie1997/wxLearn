@@ -1,55 +1,46 @@
-// pages/first/first.js
+// pages/four/four.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    text:''
+
   },
-  navigateToSecond(){
-    wx.navigateTo({
-      url: '/pages/second/second'
-    })
-  },
-  reLaunchFour(){
-    wx.reLaunch({
-      url: '/pages/four/four'
-    })
-  },
+
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    console.log("first页面onLoad")
+
   },
 
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function () {
-    console.log("first页面onReady")
+
   },
 
   /**
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
-    console.log("first页面onShow")
+
   },
 
   /**
    * 生命周期函数--监听页面隐藏
    */
   onHide: function () {
-    console.log("first页面onHide")
+
   },
 
   /**
    * 生命周期函数--监听页面卸载
    */
   onUnload: function () {
-    console.log("first页面onUnload")
+
   },
 
   /**

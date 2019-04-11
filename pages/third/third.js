@@ -1,55 +1,59 @@
-// pages/first/first.js
+// pages/third/third.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    text:''
+
   },
-  navigateToSecond(){
-    wx.navigateTo({
-      url: '/pages/second/second'
+  navigateBackFirst(){
+    var pages = getCurrentPages()
+    console.log("页面栈："+pages)
+    var first=pages[pages.length-3]
+    first.setData({
+      text:'third传回的消息'
     })
-  },
-  reLaunchFour(){
-    wx.reLaunch({
-      url: '/pages/four/four'
+
+    wx.navigateBack({
+      //delta页面数，与页面栈不是同一个
+      delta: 2
     })
   },
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    console.log("first页面onLoad")
+    console.log("third页面onLoad")
   },
 
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function () {
-    console.log("first页面onReady")
+    console.log("third页面onReady")
   },
 
   /**
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
-    console.log("first页面onShow")
+    console.log("third页面onShow")
   },
 
   /**
    * 生命周期函数--监听页面隐藏
    */
   onHide: function () {
-    console.log("first页面onHide")
+    console.log("third页面onHide")
   },
 
   /**
    * 生命周期函数--监听页面卸载
    */
   onUnload: function () {
-    console.log("first页面onUnload")
+    console.log("third页面onUnload")
+    
   },
 
   /**

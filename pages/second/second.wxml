@@ -1,2 +1,1 @@
-<!--pages/second/second.wxml-->
-<text>pages/second/second.wxml</text>
+<button bindtap='navigateToThird'>navigateToThird</button>
