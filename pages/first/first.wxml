@@ -1,0 +1,2 @@
+<input value='{{text}}'></input>
+<button bindtap='gotoSecond'>xx</button>
